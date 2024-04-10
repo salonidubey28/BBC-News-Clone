@@ -8,7 +8,7 @@ This project is a BBC News website clone created by a group of four students usi
 ## Technologies used:
 HTML and CSS.
 ## Installation: 
-1. Clone the repository using (git clone) 
+1. Clone the repository using `$ git clone <[repository_url](https://github.com/salonidubey28/BBC-News-Clone.git)>`
 2. Open the project in a code editor. 
 3. Run the project on a local server to view the BBC News clone website.
 ## Feedback
