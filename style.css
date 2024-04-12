@@ -6,6 +6,132 @@
     box-sizing: border-box;
     font-family: "BBC Reith Serif", Helvetica, Arial, sans-serif;
 }
+<<<<<<< HEAD
+.star{
+    background-color: black;
+    height: 550px;
+}
+.first{
+    width:82rem;
+    border:2px solid black;
+    margin-top: 2rem;
+    margin-left:17rem; 
+}
+.photo{
+    height: 200px;
+    width: 300px;
+}
+.one{
+    margin-left: 17rem;
+    margin-top: 1rem;
+}
+.two1{
+    font-size: 20px;
+    color:white
+}
+.two1:hover{
+    text-decoration: underline;
+    color: white;
+
+}
+.two{
+    margin-top: 2rem;   
+}
+.two3{
+    margin-top: 1rem;
+}
+.go1{
+    font-size: 20px;
+    border-right: 1px solid grey;
+    color: white;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.two5{
+    margin-top: 30px;
+}
+.first1{
+    width:82rem;
+    border:1px solid black;
+    margin-top: 2rem;
+    margin-left:17rem; 
+}
+.second{
+    margin-top: 1rem;
+    font-size: 13px;
+}
+.photo1{
+    margin-top: 2rem;
+    height: 400px;
+    width: 600px;
+}
+.nam{
+    margin-top: 1rem;
+}
+.nam:hover{
+    text-decoration: underline;
+}
+.num{
+    margin-top: 1rem;
+    font-size: 20px;
+    width: 600px;
+}
+.second1{
+    display: flex;
+    margin-left: 300px;
+    gap: 50px;
+    
+}
+.photo2{
+    margin-top: 5rem;
+    height: 400px;
+    width: 600px;
+}
+.num3{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid  black;
+    height: 200px;
+    width: 100vw;
+    background-color: rgb(242, 247, 245);
+
+}
+.first10{
+    width:82rem;
+    border:1px solid black;
+    margin-top: 2rem;
+    margin-left:17rem;
+}
+.num7{
+    border: 1px solid;
+}
+.num5{
+    margin-top: 2rem;
+    border: 1px solid;
+}
+
+.the0{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.the1:hover{
+    text-decoration: underline;
+}
+.go{
+    border-right: 1.5px solid;
+}
+.the1{
+    display: flex;
+    /* justify-content: center; */
+    gap: 30px;
+    margin-left: 310px;
+    margin-top: 50px;
+=======
 
 .head {
     display: flex;
@@ -446,4 +572,5 @@ h2:hover {
     font-size: 12px;
     margin-left: 8.5px;
     padding-bottom: 50px;
+>>>>>>> origin/News
 }
