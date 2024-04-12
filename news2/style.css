@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid black; */
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.film {
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main {
+    border: 1px solid black;
+    width: 100%;
+    height: 350px;
+}
+
+.watch {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.culture {
+    /* border: 1px solid black; */
+    width: 1300px;
+    height: 900px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    /* border: 1px solid red; */
+    width: 380px;
+    height: 750px;
+}
+
+.middle {
+    /* border: 1px solid black;   */
+    width: 750px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    word-spacing: 5px;
+}
+
+.right {
+    /* border: 1px solid red; */
+    width: 380px;
+    height: 770px;
+}
+
+.britist {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.filmtv {
+    border-top: 2px solid;
+    /* border: 1px solid; */
+    width: 1300px;
+    margin-left: 250px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+}
+
+.imageright {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 100px;
+
+}
+
+.aboutimage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lastest_entertainment_news {
+    border-top: 2px solid;
+    width: 1300px;
+    margin-left: 250px;
+    /* border: 1px solid; */
+    height: 800px;
+}
+
+.news1-4 {
+    border-top: 1px solid black;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+.news2 {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 980px;
+}
+
+.takemetotheopera {
+    border: 1px solid black;
+    width: 100%;
+    height: 450px;
+    /* background-color: black; */
+    background-color: rgb(32, 20, 20);
+}
+
+.insidetakeme {
+    border-top: 2px solid white;
+    width: 1450px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    /* border: 1px solid ; */
+
+
+}
+
+.headtakeme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid ; */
+    width: 1700px;
+}
+
+.headtakeme-2 {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid; */
+    width: 100px;
+}
+
+.advertising {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    border-bottom: 1px solid black;
+}
+
+.our-recommendations {
+    border-top: 2px solid black;
+
+    display: flex;
+    width: 1350px;
+    margin-left: 250px;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.aboutrecom {
+    border-bottom: 2px solid black;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    width: 1350px;
+    margin-left: 250px;
+}
+
+.in-history {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 1350px;
+    margin-left: 250px;
+}
+
+.in-history-1-1 {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.in-history-1-2 {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.in-history-2 {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 60px;
+    padding-bottom: 70px;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+}
+
+.watch2 {
+    background-color: rgb(49, 38, 38);
+    height: 500px;
+    /* margin-top: 80px; */
+    display: flex;
+    /* border: 1px solid yellow; */
+    flex-direction: column;
+    padding-left: 250px;
+    padding-top: 10px;
+
+}
+
+.in-watch {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    /* border: 1px solid ; */
+    width: 1300px;
+    margin-right: 100px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.eyai {
+    margin-top: 20px;
+    border-bottom: 1px solid;
+    margin-left: 400px;
+}
+
+.more-culture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 1350px;
+    /* border: 1px solid; */
+    margin-left: 250px;
+    border-top: 2px solid;
+}
+
+.more-culture-1 {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* border: 1px solid; */
+}
+
+.more-culture-2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.more-culture-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-culture-4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-culture-5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-culture-6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-culture-7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-culture-8 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-culture-9 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scrol {
+    /* border: 1px solid; */
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-left: 700px;
+    justify-content: space-around;
+}
+
+.num {
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(219, 212, 212);
+}
+.num:hover{
+    background-color: rgb(41, 34, 34);
+    color: white;
+    cursor: pointer;
+}
+.numdiff:hover{
+    background-color: rgb(41, 34, 34);
+    color: white;
+    cursor: pointer;
+}
+.numdiff{
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.numone{
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.numone:hover{
+    cursor: pointer;
+    background-color: rgb(86, 69, 69);
+    /* color: black; */
+}

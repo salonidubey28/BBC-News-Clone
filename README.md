@@ -1,9 +1,9 @@
 ## Description
 This project is a BBC News website clone created by a group of four students using HTML and CSS. It aims to practice front-end web development skills by recreating the layout and design of the original site.
 ## Contribution
-* Saloni - Homepage design and News articles layout
-* Radhika - Homepage design and Travel articles layout
-* Monika - Homepage design and News articles layout
+* Saloni - Homepage design, SignIn and Inner News articles layout
+* Radhika - Homepage design, Register and Travel articles layout
+* Monika - Homepage design and Culture articles layout
 * Reeta - Homepage design and News articles layout
 ## Technologies used:
 HTML and CSS.
