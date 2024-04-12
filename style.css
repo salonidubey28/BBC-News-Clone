@@ -6,23 +6,24 @@
     box-sizing: border-box;
     font-family: "BBC Reith Serif", Helvetica, Arial, sans-serif;
 }
-<<<<<<< HEAD
 .star{
     background-color: black;
     height: 550px;
 }
 .first{
-    width:82rem;
+    /* width:82rem; */
     border:2px solid black;
     margin-top: 2rem;
-    margin-left:17rem; 
+    /* margin-left:17rem;  */
+    margin: 0px 12px 0px;
 }
 .photo{
     height: 200px;
     width: 300px;
 }
 .one{
-    margin-left: 17rem;
+    /* margin-left: 17rem; */
+    margin: 0px 12px 0px;
     margin-top: 1rem;
 }
 .two1{
@@ -54,10 +55,11 @@
     margin-top: 30px;
 }
 .first1{
-    width:82rem;
+    /* width:82rem; */
     border:1px solid black;
     margin-top: 2rem;
-    margin-left:17rem; 
+    /* margin-left:17rem;  */
+    margin: 40px 12px 0px;
 }
 .second{
     margin-top: 1rem;
@@ -81,7 +83,8 @@
 }
 .second1{
     display: flex;
-    margin-left: 300px;
+    /* margin-left: 300px; */
+    margin: 0px 12px 0px;
     gap: 50px;
     
 }
@@ -102,10 +105,11 @@
 
 }
 .first10{
-    width:82rem;
+    /* width:82rem; */
     border:1px solid black;
     margin-top: 2rem;
-    margin-left:17rem;
+    /* margin-left:17rem; */
+    margin: 20px 12px 0px;
 }
 .num7{
     border: 1px solid;
@@ -116,7 +120,8 @@
 }
 
 .the0{
-    margin-left: 300px;
+    /* margin-left: 300px; */
+    margin: 0px 12px 0px;
     margin-top: 20px;
 }
 .the1:hover{
@@ -127,11 +132,12 @@
 }
 .the1{
     display: flex;
-    /* justify-content: center; */
+    justify-content: center; 
     gap: 30px;
-    margin-left: 310px;
+    /* margin-left: 310px; */
+    margin: 0px 12px 0px;
     margin-top: 50px;
-=======
+} 
 
 .head {
     display: flex;
@@ -237,7 +243,10 @@ a {
     display: flex;
     gap: 18px;
     justify-content: center;
-    margin: 140px 16px 48px;
+    margin: 140px 16px 48px; 
+    width: 100%;
+    background-color: rgb(255, 255, 255)
+
 }
 
 .news {
@@ -335,13 +344,13 @@ h2:hover {
     justify-content: center;
     gap: 12px;
     align-items: center;
-    margin: 0px 15px 12px;
+    margin: 0px 14px 12px;
 }
 
 .img1_sec {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .imgs {
@@ -574,5 +583,4 @@ h2:hover {
     font-size: 12px;
     margin-left: 8.5px;
     padding-bottom: 50px;
->>>>>>> origin/News
 }
