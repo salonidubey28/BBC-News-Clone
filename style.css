@@ -4,3 +4,266 @@
     box-sizing:border-box;
     font-family:"BBC Reith Serif", Helvetica, Arial, sans-serif;
 }
+
+
+/* made by Radhika Verma */
+
+/* Center the main content */
+.main-1 {
+    margin: auto;
+    height: 100%;
+    width: 70%;
+    margin-top: 5rem; /* Added margin-top to push content down */
+}
+
+/* Container for innovation content */
+.innovation-containt {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* Adjust image width */
+.innovation-containt-image img {
+    width: 100%; /* Adjusted image width */
+}
+
+/* Heading width */
+.innovation-containt-heading {
+    width: 100%; /* Adjusted heading width */
+}
+
+/* Adjust innovation text margin */
+.innovation-text {
+    margin-top: 5rem;
+}
+
+/* Horizontal rule style */
+.innovation hr {
+    margin: 0;
+    border: none;
+    border-top: 2px solid rgb(58, 60, 62);
+}
+
+/* Style links */
+.innovation-containt-heading a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Hover effect for heading */
+.innovation-containt-heading h1:hover {
+    text-decoration: underline;
+}
+
+/* Innovation button style */
+.innovation-btn {
+    height: 3rem;
+    width: 7rem;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    outline: none; /* Removed outline-color */
+    font-size: 20px;
+    cursor: pointer; /* Added cursor pointer */
+}
+
+/* Hover effect for button */
+.innovation-btn:hover {
+    background-color: black;
+    color: rgb(231, 217, 217);
+}
+
+/* Container for innovation news */
+.innovation-news-box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.innvation-news-box{
+    display: grid;
+}
+.innovation-news-content{
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+}
+/* Flex container for news time */
+.innovation-news-time {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px; /* Added margin-top */
+}
+
+/* Adjusted spacing for elements */
+.span1, .line, .b {
+    margin-top: 10px;
+}
+
+/* Flex container for innovation time */
+.innovation-time {
+    display: flex;
+    gap: 10px;
+}
+.tech{
+    margin-top: 10px;
+}
+
+/* home Science and health section */
+
+.Science-health-container hr {
+    margin: 0;
+    border: none;
+    margin-top: 3rem;
+    border-top: 2px solid rgb(58, 60, 62);
+}
+
+.Science-health-news{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.Science-health-news1 img{
+    width: 40rem;
+}
+
+/* watch */
+.box-71 {
+    display: grid;
+    width: 100%;
+    background-color: rgb(20, 22, 24);
+    padding-block: 24px;
+}
+
+.watch-container1 {
+    width: 70%;
+    margin: auto;
+}
+
+.watch-hr1 {
+    width: 100%;
+}
+
+.watch-nav1 {
+    display: grid;
+    width: 70%;
+    background-color: rgb(20, 22, 24);
+}
+
+.watch-headding1 {
+    position: relative;
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+
+.watch-headding1 button {
+    margin-right: 20px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.btn11 i {
+    margin-left: 70rem;
+    font-size: 20px;
+}
+
+.btn22 i {
+    font-size: 20px;
+}
+
+.image-container11 {
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.image-container22 {
+    display: flex;
+}
+
+.image-container33 img {
+    width: 20rem;
+    margin-left: 10px;
+}
+
+.image-text1 {
+    display: grid;
+    margin: 10px;
+    width: 20rem;
+    margin-left: 10px;
+    color: white;
+}
+
+.image-time1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.image-text1, .image-time1{
+    gap: 10px;
+}
+
+/* adds style */
+.adds{
+    background-color: rgb(248, 248, 248);
+}
+
+.adds-box{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.aad{
+    margin-top: 2rem;
+}
+
+.adds hr{
+    margin: 0;
+    border: none;
+    margin-top: 2rem;
+    border-top: 2px solid rgb(58, 60, 62);
+}
+
+/* sports section style  */
+.sport{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.sport hr{
+    margin: 0;
+    border: none;
+    margin-top: 2rem;
+    border-top: 2px solid rgb(58, 60, 62);
+}
+.soprt-text{
+    width: 30rem;
+    margin-top: 5rem;
+}
+.sport-news-content{
+    display: flex;
+}
+.sport-image img{
+    width: 50rem;
+}
+.BTN1{
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    font-size: 18px;
+}
+.BTN1:hover{
+    background-color: black;
+    color: white;
+}
+h2:hover{
+    text-decoration: underline;
+}
