@@ -4,3 +4,20 @@
     box-sizing:border-box;
     font-family:"BBC Reith Serif", Helvetica, Arial, sans-serif;
 }
+.culture{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid;
+    height: 900px;
+}
+.in-culture-1{
+    display: flex;
+    flex-direction: row;
+}
+.in-culture-2{
+    display: flex;
+    flex-direction: row;
+}
