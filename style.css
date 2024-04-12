@@ -831,6 +831,10 @@ h2:hover {
     margin-top: 2rem;
     border-top: 2px solid rgb(58, 60, 62);
 }
+.log{
+    margin-right: 15px;
+    width: 100%;
+}
 .soprt-text{
     width: 30rem;
     margin-top: 5rem;

@@ -289,7 +289,8 @@ a {
 }
 
 .picture-content-box {
-    top: 65%;
+    top: 0%;
+    left: 0%;
     height: 35%;
     width: 50%;
     background-color: white;
@@ -315,6 +316,9 @@ a {
 .image1 {
     height: 100%;
     width: 100%;
+}
+.box-6, .box-5, .box-4{
+    margin-top: 2rem;
 }
 
 .specialist-headding {
@@ -393,6 +397,9 @@ a {
 .btn2 i {
     font-size: 20px;
 }
+.box{
+    margin-top: 3rem;
+}
 
 .image-container1 {
     display: flex;
@@ -434,7 +441,7 @@ a {
 }
 
 .green-getway {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .green-headding,
@@ -479,40 +486,61 @@ a {
     margin-top: 2rem;
 }
 
-.table-container {
-    margin-top: 1rem;
+/* World's Table style */
+
+.WorldTable-headding{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.table-news{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1, );
+    grid-template-rows: repeat(1, 1fr);
 }
 
-.table-text {
+.WorldTable-image{
     display: flex;
-    flex-direction: column;
+    gap: 10px;
+}
+
+ .WorldTable-text{
+    margin-top: 10px;
+    gap: 10px;
+}
+.table-image img{
     width: 20rem;
-    gap: 10px;
-    height: 10rem;
 }
 
-.table-time {
+.WorldTable-time{
     display: flex;
     gap: 10px;
+    margin-top: 10px;
 }
+
+/* gtdd */
 
 .img {
     width: 20rem;
 }
-
+.more-on-travel{
+    margin-top: 3rem;
+}
+.more-travel hr{
+    margin-top: 7rem;
+}
 .more-travel-headding {
     margin-top: 1rem;
+    width: 35rem;
+    font-size: 15px;
 }
 
 .more-travel-container {
     margin-top: 1rem;
     display: flex;
     width: 80rem;
-    margin-left: 10rem;
-    justify-content: space-between;
+    gap: 5rem;
+    margin-left: 5rem;
+    /* justify-content: space-between; */
 }
 
 .more-travel-time {
@@ -527,9 +555,16 @@ a {
     align-items: center;
 }
 
+.travel-headline hr{
+    width: 70rem;
+    margin-left: 3rem;
+}
 .travel-headline {
-    margin-left: 10rem;
+    margin-left: 1rem;
     width: 80rem;
+}
+.travel-headline p{
+    margin-left: 14rem;
 }
 
 .travel-headline hr {
