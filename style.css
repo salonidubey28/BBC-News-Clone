@@ -1,3 +1,4 @@
+/* CSS by Saloni */
 @import url(https://db.onlinewebfonts.com/c/a1d0120b37754be8e80e39ab6ab95130?family=BBC+Reith+Sans);
 
 * {
@@ -6,162 +7,8 @@
     box-sizing: border-box;
     font-family: "BBC Reith Serif", Helvetica, Arial, sans-serif;
 }
-.star{
-    background-color: black;
-    height: 550px;
-    margin: auto;
-}
-.first{
-    /* width:82rem; */
-    border:2px solid black;
-    margin-top: 2rem;
-    /* margin-left:17rem;  */
-    margin: 0px 12px 0px;
-}
 
-.photo {
-    height: 200px;
-    width: 300px;
-    
-}
-.one{
-    /* margin-left: 17rem; */
-    margin: 0px 12px 0px;
-    margin-top: 1rem;
-}
-
-.two1 {
-    font-size: 20px;
-    color: white
-}
-
-.two1:hover {
-    text-decoration: underline;
-    color: white;
-
-}
-
-.two {
-    margin-top: 2rem;
-}
-
-.two3 {
-    margin-top: 1rem;
-}
-
-.go1 {
-    font-size: 20px;
-    border-right: 1px solid grey;
-    color: white;
-}
-
-.star {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.two5 {
-    margin-top: 30px;
-}
-.first1{
-    /* width:82rem; */
-    border:1px solid black;
-    margin-top: 2rem;
-    /* margin-left:17rem;  */
-    margin: 40px 12px 0px;
-}
-
-.second {
-    margin-top: 1rem;
-    font-size: 13px;
-}
-
-.photo1 {
-    margin-top: 2rem;
-    height: 400px;
-    width: 600px;
-}
-
-.nam {
-    margin-top: 1rem;
-}
-
-.nam:hover {
-    text-decoration: underline;
-}
-
-.num {
-    margin-top: 1rem;
-    font-size: 20px;
-    width: 600px;
-}
-
-.second1 {
-    display: flex;
-    /* margin-left: 300px; */
-    margin: 0px 12px 0px;
-    gap: 50px;
-
-}
-
-.photo2 {
-    margin-top: 5rem;
-    height: 400px;
-    width: 600px;
-}
-
-.num3 {
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
-    height: 200px;
-    width: 100vw;
-    background-color: rgb(242, 247, 245);
-
-}
-.first10{
-    /* width:82rem; */
-    border:1px solid black;
-    margin-top: 2rem;
-    /* margin-left:17rem; */
-    margin: 20px 12px 0px;
-}
-
-.num7 {
-    border: 1px solid;
-}
-
-.num5 {
-    margin-top: 2rem;
-    border: 1px solid;
-}
-
-.the0{
-    /* margin-left: 300px; */
-    margin: 0px 12px 0px;
-    margin-top: 20px;
-}
-
-.the1:hover {
-    text-decoration: underline;
-}
-
-.go {
-    border-right: 1.5px solid;
-}
-
-.the1 {
-    display: flex;
-    justify-content: center; 
-    gap: 30px;
-    /* margin-left: 310px; */
-    margin: 0px 12px 0px;
-    margin-top: 50px;
-} 
-
+/* Nav-bar */
 .head {
     display: flex;
     justify-content: space-between;
@@ -262,14 +109,15 @@ a {
     width: 100%;
 }
 
+/* Main Section */
+
 .main {
     display: flex;
     gap: 18px;
     justify-content: center;
-    margin: 140px 16px 48px; 
+    margin: 140px 16px 48px;
     width: 100%;
     background-color: rgb(255, 255, 255)
-
 }
 
 .news {
@@ -350,6 +198,8 @@ h2:hover {
     background-color: rgb(58, 60, 62);
 }
 
+/* content-Sections */
+
 .relate {
     margin: 12px 0px 24px;
     padding: 0px 16px;
@@ -378,18 +228,6 @@ h2:hover {
 
 .imgs {
     border-bottom: 0.01px solid rgb(84, 86, 88);
-}
-
-.add {
-    display: block;
-    background-color: rgb(248, 248, 248);
-    padding-top: 15px;
-    padding-bottom: 5px;
-    border-top: 1px solid rgb(84, 86, 88) !important;
-    border-bottom: 1px solid rgb(84, 86, 88) !important;
-    margin: 30px auto;
-    text-align: center;
-
 }
 
 .black_sec {
@@ -532,17 +370,31 @@ h2:hover {
     margin-left: 40px;
 }
 
+.last_div {
+    padding-bottom: 30px;
+    border-bottom: 1.5px solid rgb(230, 232, 234);
+}
+
+/* Add section */
+.add {
+    display: block;
+    background-color: rgb(248, 248, 248);
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-top: 1px solid rgb(84, 86, 88) !important;
+    border-bottom: 1px solid rgb(84, 86, 88) !important;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+/* footer section */
 .foot {
     display: flex;
     flex-direction: column;
     gap: 9px;
     margin: 0px 20px;
     padding-bottom: 28px;
-}
-
-.last_div {
-    padding-bottom: 30px;
-    border-bottom: 1.5px solid rgb(230, 232, 234);
 }
 
 .logo {
@@ -577,7 +429,8 @@ h2:hover {
     font-weight: 500;
     font-size: 14px;
 }
-.fr_hr{
+
+.fr_hr {
     margin-top: 100px;
 }
 
@@ -610,6 +463,9 @@ h2:hover {
     /* margin-left: 8.5px; */
     padding-bottom: 50px;
 }
+
+/* CSS by Radhika */
+
 .business-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -889,7 +745,8 @@ h2:hover {
 .innovation-news-time {
     display: flex;
     gap: 5px;
-    margin-top: 10px; /* Added margin-top */
+    margin-top: 10px;
+    /* Added margin-top */
     gap: 10px;
     margin-top: 10px;
     /* Added margin-top */
@@ -1068,10 +925,12 @@ h2:hover {
     margin-top: 2rem;
     border-top: 2px solid rgb(58, 60, 62);
 }
-.log{
+
+.log {
     margin-right: 15px;
     width: 100%;
 }
+
 .soprt-text {
     /* width: 30rem; */
     margin-top: 5rem;
@@ -1084,16 +943,20 @@ h2:hover {
     margin: 0px 12px 0px;
 
 }
-.sport-image img{
+
+.sport-image img {
     width: 40rem;
 }
-.sport-headding{
+
+.sport-headding {
     margin-top: 20px;
     margin-left: 10px;
 }
-.BTN1{
+
+.BTN1 {
     margin-top: 2rem;
 }
+
 .sport-image img {
     width: 50rem;
 }
@@ -1121,4 +984,166 @@ h2:hover {
 .soprt-text p,
 .BTN {
     margin-top: 1rem;
+}
+
+/* CSS by Reeta */
+
+.star {
+    background-color: black;
+    height: 550px;
+    margin: auto;
+}
+
+.first {
+    /* width:82rem; */
+    border: 2px solid black;
+    margin-top: 2rem;
+    /* margin-left:17rem;  */
+    margin: 0px 12px 0px;
+}
+
+.photo {
+    height: 200px;
+    width: 300px;
+
+}
+
+.one {
+    /* margin-left: 17rem; */
+    margin: 0px 12px 0px;
+    margin-top: 1rem;
+}
+
+.two1 {
+    font-size: 20px;
+    color: white
+}
+
+.two1:hover {
+    text-decoration: underline;
+    color: white;
+
+}
+
+.two {
+    margin-top: 2rem;
+}
+
+.two3 {
+    margin-top: 1rem;
+}
+
+.go1 {
+    font-size: 20px;
+    border-right: 1px solid grey;
+    color: white;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.two5 {
+    margin-top: 30px;
+}
+
+.first1 {
+    /* width:82rem; */
+    border: 1px solid black;
+    margin-top: 2rem;
+    /* margin-left:17rem;  */
+    margin: 40px 12px 0px;
+}
+
+.second {
+    margin-top: 1rem;
+    font-size: 13px;
+}
+
+.photo1 {
+    margin-top: 2rem;
+    height: 400px;
+    width: 600px;
+}
+
+.nam {
+    margin-top: 1rem;
+}
+
+.nam:hover {
+    text-decoration: underline;
+}
+
+.num {
+    margin-top: 1rem;
+    font-size: 20px;
+    width: 600px;
+}
+
+.second1 {
+    display: flex;
+    /* margin-left: 300px; */
+    margin: 0px 12px 0px;
+    gap: 50px;
+
+}
+
+.photo2 {
+    margin-top: 5rem;
+    height: 400px;
+    width: 600px;
+}
+
+.num3 {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 200px;
+    width: 100vw;
+    background-color: rgb(242, 247, 245);
+
+}
+
+.first10 {
+    /* width:82rem; */
+    border: 1px solid black;
+    margin-top: 2rem;
+    /* margin-left:17rem; */
+    margin: 20px 12px 0px;
+}
+
+.num7 {
+    border: 1px solid;
+}
+
+.num5 {
+    margin-top: 2rem;
+    border: 1px solid;
+}
+
+.the0 {
+    /* margin-left: 300px; */
+    margin: 0px 12px 0px;
+    margin-top: 20px;
+}
+
+.the1:hover {
+    text-decoration: underline;
+}
+
+.go {
+    border-right: 1.5px solid;
+}
+
+.the1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* margin-left: 310px; */
+    margin: 0px 12px 0px;
+    margin-top: 50px;
 }
