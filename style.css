@@ -796,7 +796,7 @@ h2:hover {
     height: 100%;
     /* width: 70%; */
     /* margin-top: 5rem; Added margin-top to push content down */
-    width: 70%;
+    /* width: 70%; */
     margin-top: 5rem;
     /* Added margin-top to push content down */
 }
@@ -931,14 +931,16 @@ h2:hover {
 }
 
 .Science-health-news {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    justify-content: space-around;
     gap: 15px;
     margin-top: 20px;
 }
 
 .Science-health-news1 img {
-    width: 40rem;
+    width: 38rem;
 }
 
 /* watch */
@@ -1057,12 +1059,15 @@ h2:hover {
 
 /* sports section style  */
 .sport {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    display: flex;
+    justify-content: space-around;
+    /* gap: 10px; */
 }
 
 .sport hr {
-    margin: 0;
+    margin: 0px 12px 0px;
     border: none;
     margin-top: 2rem;
     border-top: 2px solid rgb(58, 60, 62);
@@ -1072,7 +1077,7 @@ h2:hover {
     width: 100%;
 }
 .soprt-text {
-    width: 30rem;
+    /* width: 30rem; */
     margin-top: 5rem;
 }
 
