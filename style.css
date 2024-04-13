@@ -6,26 +6,10 @@
     box-sizing: border-box;
     font-family: "BBC Reith Serif", Helvetica, Arial, sans-serif;
 }
-.culture{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-    border: 1px solid;
-    height: 900px;
-}
-.in-culture-1{
-    display: flex;
-    flex-direction: row;
-}
-.in-culture-2{
-    display: flex;
-    flex-direction: row;
-}
 .star{
     background-color: black;
     height: 550px;
+    margin: auto;
 }
 .first{
     /* width:82rem; */
@@ -37,6 +21,7 @@
 .photo{
     height: 200px;
     width: 300px;
+    
 }
 .one{
     /* margin-left: 17rem; */
@@ -66,7 +51,7 @@
 .star{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 .two5{
     margin-top: 30px;
@@ -571,6 +556,9 @@ h2:hover {
     font-weight: 500;
     font-size: 14px;
 }
+.fr_hr{
+    margin-top: 100px;
+}
 
 .but:hover {
     background-color: rgb(210, 212, 214);
@@ -598,15 +586,16 @@ h2:hover {
     font-family: "BBC Reith Sans", Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 12px;
-    margin-left: 8.5px;
+    /* margin-left: 8.5px; */
     padding-bottom: 50px;
 }
 /* Center the main content */
 .main-1 {
-    margin: auto;
+    /* margin: auto; */
+    margin: 0px 12px 0px;
     height: 100%;
-    width: 70%;
-    margin-top: 5rem; /* Added margin-top to push content down */
+    /* width: 70%; */
+    /* margin-top: 5rem; Added margin-top to push content down */
 }
 
 /* Container for innovation content */
@@ -679,13 +668,14 @@ h2:hover {
 }
 .innovation-news-content{
     display: flex;
+    font-size: 12px;
     gap: 10px;
     margin-top: 1rem;
 }
 /* Flex container for news time */
 .innovation-news-time {
     display: flex;
-    gap: 10px;
+    gap: 5px;
     margin-top: 10px; /* Added margin-top */
 }
 
@@ -706,7 +696,7 @@ h2:hover {
 /* home Science and health section */
 
 .Science-health-container hr {
-    margin: 0;
+    margin: 10px;
     border: none;
     margin-top: 3rem;
     border-top: 2px solid rgb(58, 60, 62);
@@ -716,6 +706,7 @@ h2:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
+    margin-top: 20px;
 }
 .Science-health-news1 img{
     width: 40rem;
@@ -730,17 +721,18 @@ h2:hover {
 }
 
 .watch-container1 {
-    width: 70%;
-    margin: auto;
+    /* width: 70%; */
+    /* margin: auto; */
+    margin: 0px 12px 0px;
 }
 
 .watch-hr1 {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .watch-nav1 {
     display: grid;
-    width: 70%;
+    /* width: 70%; */
     background-color: rgb(20, 22, 24);
 }
 
@@ -749,29 +741,32 @@ h2:hover {
     display: flex;
     color: white;
     font-size: 20px;
+    margin-top: 20px;
 }
 
 .watch-headding1 button {
-    margin-right: 20px;
+    /* margin-right: 20px; */
     background: none;
     border: none;
     color: white;
 }
 
 .btn11 i {
-    margin-left: 70rem;
+    /* margin: 0px 12px 0px; */
+    margin-left: 65rem;
     font-size: 20px;
 }
 
 .btn22 i {
     font-size: 20px;
+    margin-left: 2rem;
 }
 
 .image-container11 {
     display: flex;
     overflow: scroll;
     scrollbar-width: none;
-    margin: 0px;
+    margin-top: 20px;
     padding: 0px;
     border: 0px;
     font: inherit;
@@ -783,15 +778,17 @@ h2:hover {
 }
 
 .image-container33 img {
-    width: 20rem;
-    margin-left: 10px;
+    /* width: 20rem; */
+    /* margin-left: 10px; */
+    margin: 0px 12px 0px;
 }
 
 .image-text1 {
     display: grid;
     margin: 10px;
     width: 20rem;
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    margin: 0px 12px 0px;
     color: white;
 }
 
@@ -847,9 +844,17 @@ h2:hover {
 }
 .sport-news-content{
     display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin: 0px 12px 0px;
+
 }
 .sport-image img{
-    width: 50rem;
+    width: 40rem;
+}
+.sport-headding{
+    margin-top: 20px;
+    margin-left: 10px;
 }
 .BTN1{
     margin-top: 2rem;
